@@ -7,6 +7,7 @@ import { DemoModule } from './demo/demo.module';
 import { CommunicationComponent } from './communication/communication.component';
 import { ParentChildComponent } from './communication/parent-child/parent-child.component';
 import { ChildComponent } from './communication/parent-child/child/child.component';
+import { LifeCycleComponent } from './life-cycle/life-cycle.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { ChildComponent } from './communication/parent-child/child/child.compone
     CommunicationComponent,
     ParentChildComponent,
     ChildComponent,
+    LifeCycleComponent,
   ],
   imports: [
     BrowserModule,

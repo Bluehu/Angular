@@ -1,0 +1,10 @@
+<h2>parent works</h2>
+
+<p>爸爸对孩纸说：<input [(ngModel)] = "toChild"/></p>
+<p>爸爸听到孩纸说：{{fromChild}}</p>
+<div *ngIf = "fromChild != null && fromChild !=''">
+    <button (click)="child.getApproved()" class="btn btn-success">同意</button>
+    <button (click)="child.getReject()" class="btn btn-success">不同意</button>
+</div>
+
+<app-child #child [heardFromParent] = "toChild" (follow)="childToParent($event)"></app-child>

@@ -1,0 +1,12 @@
+前情回顾：
+
+1. Angular的架构
+2. Angular三大核心概念
+3. 动手创建新的组件和模块
+
+
+Homework:
+1.运用ng 命令创建一个组件和模块
+2.在项目中引入primeNG UI组件库 https://primefaces.org/primeng/showcase/#/setup
+3.尝试集成primeNg 的 Dropdown - single 
+

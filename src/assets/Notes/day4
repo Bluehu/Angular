@@ -1,11 +1,10 @@
 前情回顾：
 
-1. Angular的架构
-2. Angular三大核心概念
-3. 动手创建新的组件和模块
+1. 集成primeNg 的 Dropdown - single 
+2. 简单介绍了一下组件通信
 
 
 Homework:
-1.把primeNG 装好， 并实现 AutoComplete
-2.预习组件通信，父子之间的通信
+1.自己动手实现一遍例子
+2.引入路由模块，实现demo - communication - lifeCycle 自由跳转
 

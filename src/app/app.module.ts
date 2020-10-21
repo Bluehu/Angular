@@ -8,6 +8,7 @@ import { CommunicationComponent } from './communication/communication.component'
 import { ParentChildComponent } from './communication/parent-child/parent-child.component';
 import { ChildComponent } from './communication/parent-child/child/child.component';
 import { LifeCycleComponent } from './life-cycle/life-cycle.component';
+import { LifeCycleParentComponent } from './life-cycle/life-cycle-parent/life-cycle-parent.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { LifeCycleComponent } from './life-cycle/life-cycle.component';
     ParentChildComponent,
     ChildComponent,
     LifeCycleComponent,
+    LifeCycleParentComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+前情回顾：
+
+1. 前端边界-浏览器
+2. 前端框架的演进
+3. angular vs reactjs vs vue.js
+
+
+Homework:
+1.运用ng 命令创建一个angular project 并运行
+2.更改首页页面元素 和 更改项目端口号
+3.在项目中引入primeNG UI组件库 https://primefaces.org/primeng/showcase/#/setup

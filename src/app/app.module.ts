@@ -9,7 +9,9 @@ import { ParentChildComponent } from './communication/parent-child/parent-child.
 import { ChildComponent } from './communication/parent-child/child/child.component';
 import { LifeCycleComponent } from './life-cycle/life-cycle.component';
 import { LifeCycleParentComponent } from './life-cycle/life-cycle-parent/life-cycle-parent.component';
-
+import { AppRoutingModule } from './app-routing.module';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import {TabMenuModule} from 'primeng/tabmenu';
 
 @NgModule({
   declarations: [
@@ -19,11 +21,14 @@ import { LifeCycleParentComponent } from './life-cycle/life-cycle-parent/life-cy
     ChildComponent,
     LifeCycleComponent,
     LifeCycleParentComponent,
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     DemoModule,
+    AppRoutingModule,
+    TabMenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

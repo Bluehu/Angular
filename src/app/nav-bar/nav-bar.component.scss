@@ -1,0 +1,28 @@
+ul {
+    margin: 0 ;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+ul li{
+    white-space: nowrap;
+    margin: 0 5px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.indicator{
+    height: 2px;
+    width: 2rem;
+    margin-top: 2px;
+    display: inline-block;
+    background-color: brown;
+}

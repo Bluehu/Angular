@@ -1,0 +1,9 @@
+<ul>
+    <li *ngFor="let item of menus">
+        <a [routerLink]="item.routerLink" routerLinkActive #rla="routerLinkActive"
+            [ngStyle]="{'color' : rla.isActive ? titleActiveColor : titleColor}">
+            {{item.label}}
+        </a>
+        <span class="indicator" *ngIf="rla.isActive"></span>
+    </li>
+</ul>

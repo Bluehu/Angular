@@ -1,0 +1,14 @@
+[
+    {
+        "label": "demo",
+        "routerLink": "/demo"
+    },
+    {
+        "label": "comunication",
+        "routerLink": "/comunication"
+    },
+    {
+        "label": "lifecycle",
+        "routerLink": "/lifecycle"
+    }
+]
